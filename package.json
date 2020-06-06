@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+     "build:lambda": "netlify-lambda build src/lambda",
+    "start:lambda": "netlify-lambda serve src/lambda"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,6 +36,7 @@
   },
   "devDependencies": {
     "react-redux": "^7.2.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "netlify-lambda": "^1.4.5"
   }
 }
