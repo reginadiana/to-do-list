@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+
+/*Lista de tarefas*/
+.h2-todo {
+	display: inline-flex;
+	font-family: 'Baloo Da', cursive;
+	font-weight: 400;
+	font-size: 40px;
+	color: rgb(125, 80, 0);
+}
+
+.rosquinha {
+	width: 15%;
+	margin-left: 5%;
+}
+
+@media screen and (max-width: 900px){ 
+	.rosquinha {
+		width: 15%;
+		height: 15%;
+	}
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+
+/*Cada tarefa*/
+.li-todo {
+	font-family: 'Baloo Da', cursive;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(242,242,242);
+	list-style: none;
+	font-size: 25px;
+	width: 60%;
+	color: gray;
+
+	margin-bottom: 1%;
+}
+
+@media screen and (max-width: 800px){ 
+	.li-todo {
+		width: 100%;
+	}
+}
