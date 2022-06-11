@@ -1,0 +1,23 @@
+.section__container {
+  position: relative;
+}
+
+.section__title {
+  position: absolute;
+  top: 50%;
+  right: 2.5%;
+  font-size: 3vw;
+  color: white;
+  width: 50%;
+  transform: translateY(-50%);
+}
+
+.section__background {
+  width: 100%;
+}
+
+@media (max-width: 599px) {
+  .section__title {
+    font-size: 4vw;
+  }
+}

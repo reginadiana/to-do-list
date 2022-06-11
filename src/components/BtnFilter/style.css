@@ -1,26 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
-
-.button-filter {
+.btn-filter {
   margin-left: 4px;
   width: 10%;
   height: 30px;
   font-size: 15px;
-  font-family: "Baloo Da", cursive;
   font-weight: 300;
+  border: 1px solid brown;
   background-color: brown;
   color: white;
-  border-color: transparent;
 }
 
-.button-filter:hover {
-  border-color: brown;
+.btn-filter:hover {
   color: brown;
   background-color: white;
   transition: 1s;
 }
 
 @media screen and (max-width: 800px) {
-  .button-filter {
+  .btn-filter {
     width: 20%;
   }
 }

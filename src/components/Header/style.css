@@ -1,0 +1,26 @@
+.header__container {
+  position: relative;
+}
+
+.header__title {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 5vw;
+  color: yellow;
+  transform: translateY(-50%);
+}
+
+.header__title span {
+  color: #ff007f;
+}
+
+.header__background {
+  width: 100%;
+}
+
+@media (max-width: 599px) {
+  .header__title {
+    font-size: 7vw;
+  }
+}

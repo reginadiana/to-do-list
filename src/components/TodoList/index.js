@@ -2,20 +2,27 @@ import React from "react";
 import PropTypes from "prop-types";
 import Todo from "../Todo/index";
 import "./style.css";
-import rosquinha from "../../assets/rosquinha.png";
+import ImgDunout from "../../assets/dunout.png";
 
-/*Aqui temos a lista completa de tarefas*/
+/* Aqui temos a lista completa de tarefas */
 const TodoList = ({ todos, toggleTodo }) => (
-  <ul className="table-list">
-    <h2 className="h2-todo">
-      List of Tasks{" "}
-      <img src={rosquinha} className="rosquinha" alt="Rosquinha" />{" "}
-    </h2>
-
-    {todos.map((todo) => (
-      <Todo key={todo.id} {...todo} onClick={() => toggleTodo(todo.id)} />
-    ))}
-  </ul>
+  <section className="flex flex-center todo__list">
+    <div className="flex flex-center">
+      <h2 className="todo__list__subtitle">List of Tasks</h2>
+      <img
+        src={ImgDunout}
+        className="todo__list__dunout"
+        alt="Rosquinha"
+        width="50"
+        height="50"
+      />
+    </div>
+    <ul className="todo__list__ul">
+      {todos.map((todo) => (
+        <Todo key={todo.id} {...todo} onClick={() => toggleTodo(todo.id)} />
+      ))}
+    </ul>
+  </section>
 );
 
 TodoList.propTypes = {

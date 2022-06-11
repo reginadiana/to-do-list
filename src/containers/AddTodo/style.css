@@ -1,38 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
+.add__todo, 
+.add__todo__input,
+.add__todo__submit {
+  padding: 8px;
+}
 
-.add-todo-div {
+.add__todo__input,
+.add__todo__submit {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.add__todo {
+  background-color: wheat;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-
-  font-family: "Baloo Da", cursive;
-  font-weight: 300;
-  font-size: 20px;
-  color: yellow;
 }
 
-/*Input*/
-.input-todo {
-  width: 48%;
-  height: 30px;
-  margin-bottom: 1%;
+.add__todo__title {
+  font-size: 3vw;
+  color: palevioletred;
 }
 
-/*Button*/
-.button-todo {
-  width: 48%;
-  height: 40px;
-  font-size: 20px;
-  font-family: "Baloo Da", cursive;
-  font-weight: 300;
-  border-color: transparent;
-  background-color: yellow;
+.add__todo__input {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add__todo__submit {
+  background-color: palevioletred;
   color: white;
 }
 
-@media screen and (max-width: 900px) {
-  .input-todo,
-  .button-todo {
-    width: 80%;
+.add__todo__submit:hover {
+  background-color: plum;
+  transition: 0.5s;
+}
+
+@media (max-width: 599px) {
+  .add__todo,
+  .add__todo__form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .add__todo__title {
+    font-size: 6vw;
+  }
+
+  .add__todo__input {
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 600px) {
+  .add__todo {
+    padding: 32px;
+    justify-content: space-evenly;
+  }
+
+  .add__todo__form {
+    width: 40%;
+  }
+
+  .add__todo__input {
+    width: 70%;
+    margin-right: 8px;
   }
 }

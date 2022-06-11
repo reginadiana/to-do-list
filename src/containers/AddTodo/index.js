@@ -1,33 +1,34 @@
-import React from "react";
-import { connect } from "react-redux";
+import React, { useState } from "react";
 import { addTodo } from "../../actions";
+import { connect } from "react-redux";
 import "./style.css";
 
 const AddTodo = ({ dispatch }) => {
-  let input;
+  const initialState = "";
+  const [input, setInput] = useState(initialState);
+
+  const handleSubmit = (e) => {
+	e.preventDefault();
+	
+    dispatch(addTodo(input));
+    setInput(initialState);
+  };
 
   return (
-    <div className="add-todo-div">
-      <h1>Do you want to create a new task?</h1>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
+    <section className="flex add__todo">
+      <h1 className="add__todo__title">Do you want to create a new task?</h1>
+      <form className="flex add__todo__form" onSubmit={handleSubmit}>
+        <input
+          className="add__todo__input"
+          type="text"
+          placeholder="Add new task here ..."
+          value={input}
+          onChange={({ target }) => setInput(target.value)}
+        />
 
-          if (!input.value.trim()) {
-            return;
-          }
-
-          dispatch(addTodo(input.value));
-          input.value = "";
-        }}
-      >
-        <input className="input-todo" ref={(node) => (input = node)} />
-        <br />
-        <button className="button-todo" type="submit">
-          Add New Task
-        </button>
+        <button className="add__todo__submit">Add New Task</button>
       </form>
-    </div>
+    </section>
   );
 };
 

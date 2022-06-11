@@ -1,22 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
+/* Lista de tarefas */
+.todo__list {
+  padding: 32px;
+  flex-direction: column;
+}
 
-/*Lista de tarefas*/
-.h2-todo {
-  display: inline-flex;
-  font-family: "Baloo Da", cursive;
-  font-weight: 400;
-  font-size: 40px;
+.todo__list__subtitle {
   color: rgb(125, 80, 0);
+  margin-right: 8px;
 }
 
-.rosquinha {
-  width: 15%;
-  margin-left: 5%;
-}
-
-@media screen and (max-width: 900px) {
-  .rosquinha {
-    width: 15%;
-    height: 15%;
-  }
+.todo__list__ul {
+  margin-top: 16px;
+  flex-direction: column;
 }

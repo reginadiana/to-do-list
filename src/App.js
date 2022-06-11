@@ -1,16 +1,17 @@
 import React from "react";
-import { Header } from "./components/header/index";
-import { Section } from "./components/section/index";
-import Footer from "./components/Footer/index";
+import Header from "./components/Header/index";
+import Section from "./components/Section/index";
+import Filter from "./components/Filter/index";
 import AddTodo from "./containers/AddTodo/index";
 import VisibileTodoList from "./containers/VisibleTodoList/index";
+import './App.css'
 
 const App = () => (
   <>
     <Header />
     <Section />
     <AddTodo />
-    <Footer />
+    <Filter />
     <VisibileTodoList />
   </>
 );
