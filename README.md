@@ -27,7 +27,7 @@ The goal is developer a frontend application  that is able to create new task an
 Clone this project:
 
 ```
-git clone https://github.com/Diana-ops/womakerscodeReact/tree/master/to-do-list-redux-hocks
+git clone https://github.com/reginadiana/to-do-list
 ```
 
 Install dependeces and run with:
@@ -38,7 +38,21 @@ $ cd src
 $ yarn start
 ```
 
-Is possible to see the response of local request acessing http://localhost:3000
+## Running with docker
+
+Building container
+```
+$ docker-compose build
+```
+
+Openning terminal
+```
+$ docker-compose run --rm --service-ports app bash  
+```
+
+Inside the docker terminal, you can run projet with `yarn start`
+
+Is possible to see the response of local request acessing http://localhost:3001
 
 If you can and wanted give me some **feedback** about my project or README.md, send me a **Pull Requests**. Advices are many welcome and constructive for me :smile:
 
