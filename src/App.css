@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
 
 .title-3 {
-  font-family: 'Baloo Da', cursive;
+  font-family: "Baloo Da", cursive;
   font-weight: 300;
   font-size: 25px;
   color: yellow;

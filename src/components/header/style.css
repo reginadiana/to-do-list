@@ -1,45 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
 
 /*font-family: 'Baloo Da', cursive;
 font-family: 'Baloo 2', cursive;*/
 .title-1 {
-	position: absolute;
-	z-index: 1;
-	margin-right: 33%;
-	margin-left: 10%;
-	margin-top: 22%;
-
-	font-family: 'Baloo Da', cursive;
-	font-weight: 300;
-	font-size: 80px;
-	color: yellow;
+  position: absolute;
+  z-index: 1;
+  margin-right: 33%;
+  margin-left: 10%;
+  margin-top: 22%;
+  font-family: "Baloo Da", cursive;
+  font-weight: 300;
+  font-size: 80px;
+  color: yellow;
 }
 
 .title-1 span {
-	color: #ff007f;
+  color: #ff007f;
 }
 .imageSky {
-	width: 103.4%;
-	margin-left: -2%;
-	margin-top: -2%;
+  width: 103.4%;
+  margin-left: -2%;
+  margin-top: -2%;
 }
 
-@media screen and (max-width: 1150px){ 
-	.title-1 { 
-		font-size: 60px;
-	}
+@media screen and (max-width: 1150px) {
+  .title-1 {
+    font-size: 60px;
+  }
 }
 
-@media screen and (max-width: 900px){ 
-	.title-1 { 
-		font-size: 60px;
-		margin-right: 50%;
-	}
+@media screen and (max-width: 900px) {
+  .title-1 {
+    font-size: 60px;
+    margin-right: 50%;
+  }
 }
 
-@media screen and (max-width: 700px){ 
-	.title-1 { 
-		font-size: 45px;
-		margin-right: 50%;
-	}
+@media screen and (max-width: 700px) {
+  .title-1 {
+    font-size: 45px;
+    margin-right: 50%;
+  }
 }

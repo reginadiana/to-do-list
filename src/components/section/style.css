@@ -1,34 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
 
 .title-2 {
-	position: absolute;
-	z-index: 1;
-	margin-left: 50%;
-	margin-top: 15%;
-	margin-right: 5%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 50%;
+  margin-top: 15%;
+  margin-right: 5%;
 
-	font-family: 'Baloo Da', cursive;
-	font-weight: 300;
-	font-size: 30px;
-	color: white;
+  font-family: "Baloo Da", cursive;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
 
-	text-align: left;
+  text-align: left;
 }
 
 .imageRun {
-	width: 103.4%;
-	margin-left: -2%;
-	margin-top: -1%;
+  width: 103.4%;
+  margin-left: -2%;
+  margin-top: -1%;
 }
 
-@media screen and (max-width: 900px){ 
-	.title-2 { 
-		font-size: 20px;
-	}
+@media screen and (max-width: 900px) {
+  .title-2 {
+    font-size: 20px;
+  }
 }
 
-@media screen and (max-width: 600px){ 
-	.title-2 { 
-		font-size: 15px;
-	}
+@media screen and (max-width: 600px) {
+  .title-2 {
+    font-size: 15px;
+  }
 }

@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
 
 .button-filter {
-	margin-left: 4px;
-	width: 10%;
-	height: 30px;
-	font-size: 15px;
-	font-family: 'Baloo Da', cursive;
-	font-weight: 300;
-
-	background-color: brown;
-	color: white;
-	border-color: transparent;
+  margin-left: 4px;
+  width: 10%;
+  height: 30px;
+  font-size: 15px;
+  font-family: "Baloo Da", cursive;
+  font-weight: 300;
+  background-color: brown;
+  color: white;
+  border-color: transparent;
 }
 
 .button-filter:hover {
-	border-color: brown;
-	color: brown;
-	background-color: white;
-	transition: 1s;
+  border-color: brown;
+  color: brown;
+  background-color: white;
+  transition: 1s;
 }
 
-@media screen and (max-width: 800px){ 
-	.button-filter { 
-		width: 20%;
-	}
+@media screen and (max-width: 800px) {
+  .button-filter {
+    width: 20%;
+  }
 }

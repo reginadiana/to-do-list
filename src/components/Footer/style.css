@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
 
 .div-footer {
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-
-	font-family: 'Baloo Da', cursive;
-	font-weight: 300;
-	font-size: 20px;
-	color: brown;
-
-	margin-top: 3%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Baloo Da", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  color: brown;
+  margin-top: 3%;
 }

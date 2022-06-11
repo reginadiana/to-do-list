@@ -1,38 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Da&display=swap");
 
 .add-todo-div {
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
-	font-family: 'Baloo Da', cursive;
-	font-weight: 300;
-	font-size: 20px;
-	color: yellow;
+  font-family: "Baloo Da", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  color: yellow;
 }
 
 /*Input*/
 .input-todo {
-	width: 48%;
-	height: 30px;
-	margin-bottom: 1%;
+  width: 48%;
+  height: 30px;
+  margin-bottom: 1%;
 }
 
 /*Button*/
 .button-todo {
-	width: 48%;
-	height: 40px;
-	font-size: 20px;
-	font-family: 'Baloo Da', cursive;
-	font-weight: 300;
-	border-color: transparent;
-	background-color: yellow;
-	color: white;
+  width: 48%;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Baloo Da", cursive;
+  font-weight: 300;
+  border-color: transparent;
+  background-color: yellow;
+  color: white;
 }
 
-@media screen and (max-width: 900px){
-
-	.input-todo, .button-todo {
-		width: 80%;
-	}
+@media screen and (max-width: 900px) {
+  .input-todo,
+  .button-todo {
+    width: 80%;
+  }
 }
