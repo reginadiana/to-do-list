@@ -14,46 +14,48 @@ O gerenciador é uma aplicação em frontend para criar e marcar tarefas como co
 
 ### :iphone: Layout 
 
-![layout](https://user-images.githubusercontent.com/46378210/77605004-9342f000-6ef2-11ea-9ca0-d7d37d7194cb.png)
+<img src="https://user-images.githubusercontent.com/46378210/173255670-5a93198e-561f-441a-8c48-311f604014b7.png" width="500"/>
 
-## Resources
+## Como executar a aplicação em ambiente local
 
-- React
-- Redux
+### 1. Diretamente na máquina
 
+Clone o projeto:
 
-## How to run application
-
-Clone this project:
-
-```
-git clone https://github.com/reginadiana/to-do-list
+```bash
+$ git clone https://github.com/reginadiana/to-do-list
 ```
 
-Install dependeces and run with:
+Instale as dependencias:
 
 ```
 $ yarn install
-$ cd src
+```
+
+Inicie:
+
+```
 $ yarn start
 ```
 
-## Running with docker
+## 2. Com docker
 
-Building container
+> Para usar o docker, é necessário que o `docker` e o `docker-compose` esteja instalado na máquina
+
+Construa o container:
 ```
 $ docker-compose build
 ```
 
-Openning terminal
+Abra o terminal:
 ```
 $ docker-compose run --rm --service-ports app bash  
 ```
 
-Inside the docker terminal, you can run projet with `yarn start`
+Inicie: 
 
-Is possible to see the response of local request acessing http://localhost:3001
+```
+$ yarn start
+```
 
-If you can and wanted give me some **feedback** about my project or README.md, send me a **Pull Requests**. Advices are many welcome and constructive for me :smile:
-
-Give me a **Star** if this project help or inspired you somehow :star:
+A aplicação fica disponível na rota http://localhost:3001
