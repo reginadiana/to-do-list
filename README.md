@@ -1,16 +1,16 @@
-## :octocat: What is App
+## :octocat: TODO Simpsons - Gerenciador de tarefas do Homer Simpsons
 
-The goal is developer a frontend application  that is able to create new task and to filter it as all, done and active
+O gerenciador é uma aplicação em frontend para criar e marcar tarefas como concluidas ou não. 
 
-## Functionalities
+## Entregas de Valor 
 
-:heavy_check_mark: Use of redux for to control the content of tasks and what filter it will be apply.
+:heavy_check_mark: Uso de gerenciador de estado (redux).
 
-:heavy_check_mark: Responsive layout.
+:heavy_check_mark: Design responsivo.
 
-:heavy_check_mark: Create new tasks.
+:heavy_check_mark: Criação de novas tarefas.
 
-:heavy_check_mark: Filter tasks in all, done and active. 
+:heavy_check_mark: Filtro de tarefas por estado de **concluido**, **não concluido** e **ambos**
 
 ### :iphone: Layout 
 
