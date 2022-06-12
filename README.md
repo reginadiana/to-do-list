@@ -12,7 +12,7 @@ O gerenciador é uma aplicação em frontend para criar e marcar tarefas como co
 
 :heavy_check_mark: Filtro de tarefas por estado de **concluido**, **não concluido** e **ambos**
 
-### :iphone: Layout 
+### :iphone: Aplicação 
 
 <img src="https://user-images.githubusercontent.com/46378210/173255670-5a93198e-561f-441a-8c48-311f604014b7.png" width="500"/>
 
