@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import mockTasks from '../../mock/tasks.json';
 import { addTodo } from "../../actions";
 import { connect } from "react-redux";
 import "./style.css";
@@ -7,9 +8,15 @@ const AddTodo = ({ dispatch }) => {
   const initialState = "";
   const [input, setInput] = useState(initialState);
 
+  useEffect(() => {
+    mockTasks.forEach((task) => {
+      dispatch(addTodo(task.text));
+    });
+  }, [dispatch]);
+
   const handleSubmit = (e) => {
-	e.preventDefault();
-	
+    e.preventDefault();
+
     dispatch(addTodo(input));
     setInput(initialState);
   };

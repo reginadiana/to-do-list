@@ -2,6 +2,7 @@
 .todo__list {
   padding: 32px;
   flex-direction: column;
+  background-color: wheat;
 }
 
 .todo__list__subtitle {

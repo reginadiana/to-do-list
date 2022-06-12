@@ -1,11 +1,12 @@
 const todos = (state = [], action) => {
   switch (action.type) {
     case "ADD_TODO":
-      /*Os dados vão se acumulando*/
+      /* Pega o estado anterior */
       return [
         ...state,
 
-        /*action.id e action.text foi definido em actions/index.js*/
+        /* Adiciona novo objeto com as propriedades
+           da task */
         {
           id: action.id,
           text: action.text,
@@ -13,7 +14,7 @@ const todos = (state = [], action) => {
         },
       ];
 
-    /*Pela id passada, a tarefa pode mudar de estado*/
+    /* Inverte estado da task de done para active e vice-versa */
     case "TOGGLE_TODO":
       return state.map((todo) =>
         todo.id === action.id ? { ...todo, completed: !todo.completed } : todo

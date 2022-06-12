@@ -1,5 +1,5 @@
 import React from "react";
-import ImgHomerSky from "../../assets/homer/sky.jpg";
+import ImgHomerSky from "../../assets/homer/sky.png";
 import "./style.css";
 
 const Header = () => {
