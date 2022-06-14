@@ -1,8 +1,8 @@
-## :octocat: TODO Simpsons - Gerenciador de tarefas do Homer Simpsons
+# :octocat: TODO Simpsons - Gerenciador de tarefas do Homer Simpsons
 
 O gerenciador é uma aplicação em frontend para criar e marcar tarefas como concluidas ou não. 
 
-## Entregas de Valor 
+## Entregas 
 
 :heavy_check_mark: Uso de gerenciador de estado (redux).
 
@@ -16,9 +16,9 @@ O gerenciador é uma aplicação em frontend para criar e marcar tarefas como co
 
 <img src="https://user-images.githubusercontent.com/46378210/173255670-5a93198e-561f-441a-8c48-311f604014b7.png" width="500"/>
 
-## Como executar a aplicação em ambiente local
+### Como executar a aplicação em ambiente local
 
-### 1. Diretamente na máquina
+#### 1. Diretamente na máquina
 
 Clone o projeto:
 
@@ -38,7 +38,7 @@ Inicie:
 $ yarn start
 ```
 
-## 2. Com docker
+#### 2. Com docker
 
 > Para usar o docker, é necessário que o `docker` e o `docker-compose` esteja instalado na máquina
 
