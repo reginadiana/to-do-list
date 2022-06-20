@@ -17,6 +17,8 @@ const AddTodo = ({ dispatch }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if(input === "") return;
+
     dispatch(addTodo(input));
     setInput(initialState);
   };
@@ -32,7 +34,6 @@ const AddTodo = ({ dispatch }) => {
           value={input}
           onChange={({ target }) => setInput(target.value)}
         />
-
         <button className="add__todo__submit">Add New Task</button>
       </form>
     </section>
