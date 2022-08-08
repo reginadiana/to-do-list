@@ -6,9 +6,9 @@ const Section = () => {
   return (
     <section className="section__container">
       <h1 className="section__title">
-        Homer is a person very disorganized.
-        <br /> Help him to list your tasks and
-        <br /> to check if are done.
+        Homer é uma pessoa muito desorganizada
+        <br /> Ajude-o a listar suas tarefas
+        <br /> e verificar se estão feitas.
       </h1>
       <img
         draggable="false"

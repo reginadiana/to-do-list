@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   app:
-    container_name: dockerized-todo-list-simpsons
+    container_name: dockerized-trello
     build:
       context: .
       dockerfile: Dockerfile

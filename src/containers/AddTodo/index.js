@@ -25,16 +25,16 @@ const AddTodo = ({ dispatch }) => {
 
   return (
     <section className="flex add__todo">
-      <h1 className="add__todo__title">Do you want to create a new task?</h1>
+      <h1 className="add__todo__title">Você quer criar uma nova tarefa?</h1>
       <form className="flex add__todo__form" onSubmit={handleSubmit}>
         <input
           className="add__todo__input"
           type="text"
-          placeholder="Add new task here ..."
+          placeholder="Adicione nova terefa aqui..."
           value={input}
           onChange={({ target }) => setInput(target.value)}
         />
-        <button className="add__todo__submit">Add New Task</button>
+        <button className="add__todo__submit">+ Adicionar</button>
       </form>
     </section>
   );

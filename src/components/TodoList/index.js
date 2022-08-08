@@ -8,7 +8,7 @@ import ImgDunout from "../../assets/dunout.png";
 const TodoList = ({ todos, toggleTodo }) => (
   <section className="flex flex-center todo__list">
     <div className="flex flex-center">
-      <h2 className="todo__list__subtitle">List of Tasks</h2>
+      <h2 className="todo__list__subtitle">Lista de tarefas</h2>
       <img
         src={ImgDunout}
         className="todo__list__dunout"

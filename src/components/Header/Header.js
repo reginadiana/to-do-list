@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header__container">
       <h1 className="header__title">
-        Homer's <span>Task List</span>
+        Lista de Tarefas do <span>Homer</span>
       </h1>
       <img
         draggable="false"

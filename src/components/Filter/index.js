@@ -5,10 +5,10 @@ import "./style.css";
 
 const Filter = () => (
   <section className="flex flex-center filter__container">
-    <span>Show:</span>
-    <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
-    <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Active</FilterLink>
-    <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>Done</FilterLink>
+    <span>Mostrar:</span>
+    <FilterLink filter={VisibilityFilters.SHOW_ALL}>Todas</FilterLink>
+    <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Para Fazer</FilterLink>
+    <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>Feitas</FilterLink>
   </section>
 );
 
